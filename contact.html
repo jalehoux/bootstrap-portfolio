@@ -19,14 +19,14 @@
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -37,16 +37,36 @@
         <div class="container" id="content">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
-                    <p class="text-center">About Me</p>
+                    <p class="text-center">Contact</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-7 offset-lg-1">
-                    <img src="./assets/img/download.svg" class="rounded float-left" alt="Responsive image">
-                    <p>Picanha spare ribs landjaeger, drumstick pastrami ham hock cupim cow. Pig turducken ground round picanha. Shank pancetta shankle beef chuck swine pastrami corned beef tongue sausage. Pig capicola cupim drumstick beef ribs shank sirloin ground round sausage tri-tip pork chop turducken tongue. Shankle bresaola kevin, swine sausage pancetta bacon. Drumstick kevin spare ribs beef tri-tip turkey doner jowl ball tip. Cow capicola tenderloin venison.</p>
+                    <p class="text-center">Send me a message</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="fname">Name</label>
+                            <input type="text" class="form-control" id="fname" aria-describedby="helpId" placeholder="">
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Your Email Address</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="emailHelpId" placeholder="">
+                        </div>
+                        <div class="form-group">
+                          <label for="message">Message</label>
+                          <textarea class="form-control" id="message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
-                <div class="col-lg-2">
-                    <p class="text-center">Skills</p>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="holder.js/100x180/" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">My Information</h4>
+                            <p class="card-text">I am currently looking for full-stack or front end developer jobs.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -55,7 +75,7 @@
     <div class="container-fluid" id="footer">    
         <footer class="footer fixed-bottom">
             <div class="container">
-                <span class="text-muted text-center">Copyright</span>
+                <span class="text-muted">Copyright</span>
             </div>
         </footer>      
     </div>
